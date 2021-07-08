@@ -1,7 +1,8 @@
-package com.estudos.digitalinnovationone.list;
+package list;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ExemploList {
@@ -10,6 +11,7 @@ public class ExemploList {
 
         //Estudo sobre List
 
+        System.out.println("Métodos de uma lista: " + "\n");
         List<String> nomes = new ArrayList<>();
         nomes.add("Carlos");
         nomes.add("Pedro");
@@ -79,14 +81,27 @@ public class ExemploList {
 
         System.out.println(" //---------------------------------------------------------------");
         System.out.println("\n" + "Formas de Navegar uma lista:");
+        System.out.println("\n");
         //Formas de navegar uma lista, ou seja,
         //passar em cada um dos elementos e executar um código
 
 
-
         //ForEach
-        for (String nomeItem:nomes ) {
-            System.out.println(nomeItem);
+        for (String nomeItem : nomes) {
+            System.out.println("Método ForEach " + nomeItem);
+        }
+
+        System.out.println("\n");
+
+        //iterator -> retorna um iterator de String
+        //existe alguns métodos
+        Iterator<String> iterator = nomes.iterator();
+        //pode ser navegado através de um while
+        //primeiro método hasNext
+        //retorna um boolean true sempre q existir mais um elemento na lista
+        //método next retorna o objeto iterado no momento
+        while (iterator.hasNext()) {
+            System.out.println("Método hasNext e Next do Iterator: " + iterator.next());
         }
 
 
