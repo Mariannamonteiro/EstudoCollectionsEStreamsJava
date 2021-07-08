@@ -6,7 +6,13 @@ queue/ExemploLinkedList.java
  queue.ExemploLinkedList
 set/ExemploLinkedHashSet.java
  set.ExemploLinkedHashSet
-set/ExemploTreeSet.java
- set.ExemploTreeSet
 set/ExemploHashSet.java
  set.ExemploHashSet
+set/ExemploTreeSet.java
+ set.ExemploTreeSet
+map/ExemploTreeMap.java
+ map.ExemploTreeMap
+map/ExemploHashMap.java
+ map.ExemploHashMap
+map/ExemploHashTable.java
+ map.ExemploHashTable
