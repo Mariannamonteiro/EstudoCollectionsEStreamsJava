@@ -14,5 +14,11 @@ map/ExemploTreeMap.java
  map.ExemploTreeMap
 map/ExemploHashMap.java
  map.ExemploHashMap
+comparators/EstudanteOrdemIdadeReversaComparator.java
+ comparators.EstudanteOrdemIdadeReversaComparator
+comparators/Estudante.java
+ comparators.Estudante
 map/ExemploHashTable.java
  map.ExemploHashTable
+comparators/ComparatorsExampleList.java
+ comparators.ComparatorsExampleList
